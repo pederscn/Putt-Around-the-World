@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{11303275-B36C-64BF-8FB2-F4FD74AD9E13}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/golfswing.cs">
+    <Files>
+      <File FileName="Assets/golfswing.cs" Line="24" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Putt Around the World" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="golfswing.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ce2569b2-21f6-4921-becb-ff0a4095095b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

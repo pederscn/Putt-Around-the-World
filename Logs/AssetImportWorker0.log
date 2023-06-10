@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54284
+53815
 Successfully changed project path to: /Users/christianpedersen/Game Engine Projects/Putt Around the World
 /Users/christianpedersen/Game Engine Projects/Putt Around the World
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/christianpedersen/Game Engine Proje
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8120149248] Host "[IP] 192.168.3.44 [Port] 0 [Flags] 2 [Guid] 2097964162 [EditorId] 2097964162 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8120149248] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 73248380 [EditorId] 73248380 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8120149248] Host "[IP] 192.168.3.44 [Port] 0 [Flags] 2 [Guid] 2097964162 [EditorId] 2097964162 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8120149248] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 73248380 [EditorId] 73248380 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 78.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 163.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,77 +73,77 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56942
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001634 seconds.
+Registered in 0.002040 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.444 seconds
+- Completed reload, in  0.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (445ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (301ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (77ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (178ms)
+			SetupLoadedEditorAssemblies (184ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004609 seconds.
+Registered in 0.005293 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.658 seconds
+- Completed reload, in  0.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (658ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (621ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (528ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (223ms)
+			SetupLoadedEditorAssemblies (205ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (150ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (139ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -153,13 +153,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (84.7 KB). Loaded Objects now: 3510.
-Memory consumption went from 102.8 MB to 102.7 MB.
-Total: 3.592750 ms (FindLiveObjects: 0.471125 ms CreateObjectMapping: 0.061041 ms MarkObjects: 2.959209 ms  DeleteObjects: 0.100584 ms)
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (85.2 KB). Loaded Objects now: 3518.
+Memory consumption went from 104.1 MB to 104.0 MB.
+Total: 5.681667 ms (FindLiveObjects: 0.500041 ms CreateObjectMapping: 0.044458 ms MarkObjects: 4.955875 ms  DeleteObjects: 0.180625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,223 +173,171 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 313822.740857 seconds.
-  path: Assets/Golf Pack/Instruction.pdf
-  artifactKey: Guid(e36bc37897cd1405e869407586d30f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Instruction.pdf using Guid(e36bc37897cd1405e869407586d30f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ab2ea912c00a138e5a6262153f09d3') in 0.117446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.620726 seconds.
-  path: Assets/Golf Pack/Prefabs
-  artifactKey: Guid(f1a504b5edb9048a08b414a542fed086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs using Guid(f1a504b5edb9048a08b414a542fed086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c203a31756b6e22694a51f67880245fc') in 0.004018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043337 seconds.
-  path: Assets/Golf Pack/Prefabs/track_01.prefab
-  artifactKey: Guid(7c17c53116a9b47f7ac6a1108e9c4371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/track_01.prefab using Guid(7c17c53116a9b47f7ac6a1108e9c4371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7df966df19b3a3143cbcba81fb5b2e2') in 0.908901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillHole_03.prefab
-  artifactKey: Guid(d1e82d33c9e394bd7b9f6ebd2b9cc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillHole_03.prefab using Guid(d1e82d33c9e394bd7b9f6ebd2b9cc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2545f27f33afcacd4a361a0d4067bff') in 0.009433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillRound_02.prefab
-  artifactKey: Guid(def053723b0894fabae278d7f6903953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillRound_02.prefab using Guid(def053723b0894fabae278d7f6903953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103be7ead9b63f9d1d4cb39daf60060') in 0.009354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Golf Pack/Prefabs/trackCurve_01.prefab
-  artifactKey: Guid(18f7d7d0bc265488c98a590e1b8d102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackCurve_01.prefab using Guid(18f7d7d0bc265488c98a590e1b8d102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0763b84d03042954713918aa0743c8') in 0.019742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillHole_05.prefab
-  artifactKey: Guid(df2499ff8e2224591befd102720688b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillHole_05.prefab using Guid(df2499ff8e2224591befd102720688b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bb995b5cdc7da6bcd87b4660f71fb0') in 0.009639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillCrossing_01.prefab
-  artifactKey: Guid(6e2891c2fe65e44c7ad5dc157f473b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillCrossing_01.prefab using Guid(6e2891c2fe65e44c7ad5dc157f473b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24e33f569e319c2bce87b282fb4317b') in 0.008194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Golf Pack/Prefabs/trackRound_02.prefab
-  artifactKey: Guid(959d5e2b3b6b84e558a263e3141acf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackRound_02.prefab using Guid(959d5e2b3b6b84e558a263e3141acf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0710a28da275e97fe6bbc45b834ef117') in 0.008435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Golf Pack/Prefabs/trackCrossing_02.prefab
-  artifactKey: Guid(8f54bc314c2c34cbeb925c001120bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackCrossing_02.prefab using Guid(8f54bc314c2c34cbeb925c001120bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3436e180e2802da315087ec57a8a9f6e') in 0.015511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillCrossing_02.prefab
-  artifactKey: Guid(dd728274af60647c583590c1aa21a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillCrossing_02.prefab using Guid(dd728274af60647c583590c1aa21a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9012cd3c9519eae771c9257201ec575b') in 0.009267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillHole_04.prefab
-  artifactKey: Guid(d336a4c0344c24f4c86277f634aa0c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillHole_04.prefab using Guid(d336a4c0344c24f4c86277f634aa0c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae33ed855bb1d97b3a979ad9e6600efe') in 0.008284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHill_01.prefab
-  artifactKey: Guid(1b4ff667cb68b4221aeb1c8dc7a2ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHill_01.prefab using Guid(1b4ff667cb68b4221aeb1c8dc7a2ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2b3629e4fb484d1edab0c764518e02') in 0.007975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHill_05.prefab
-  artifactKey: Guid(55504cdb6839841d9900b20bdf62b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHill_05.prefab using Guid(55504cdb6839841d9900b20bdf62b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719c2ee61e8166c176868c4341fb550') in 0.007675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Golf Pack/Prefabs/trackToHill_01.prefab
-  artifactKey: Guid(38131b2e6fdc04355a4c2ff72c1b4019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackToHill_01.prefab using Guid(38131b2e6fdc04355a4c2ff72c1b4019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf64d0d9e82b4893be3ea9c85f3e090') in 0.007620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHill_07.prefab
-  artifactKey: Guid(a3af2c993f1a4482995304b9d25fca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHill_07.prefab using Guid(a3af2c993f1a4482995304b9d25fca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39e139ecdc482b054ff6f60218a7454') in 0.007404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillHole_01.prefab
-  artifactKey: Guid(4a50d67b2975b49fc8378848bf110787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillHole_01.prefab using Guid(4a50d67b2975b49fc8378848bf110787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157d7b4d030b8fdd07de2b193aa39a9e') in 0.007858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillCrosing_01.prefab
-  artifactKey: Guid(565754d95c30c476a9bd27560f0cce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillCrosing_01.prefab using Guid(565754d95c30c476a9bd27560f0cce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e8149eea745173f9bcab1f7c030c4a') in 0.007778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Golf Pack/Prefabs/trackHillRound_03.prefab
-  artifactKey: Guid(081f656ac25f84b0fbb961b55ee65de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Prefabs/trackHillRound_03.prefab using Guid(081f656ac25f84b0fbb961b55ee65de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd056ed5d2f1f0679ef79a61153d860f1') in 0.007205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1532.295389 seconds.
-  path: Assets/Golf Pack/Mesh/track_01.FBX
-  artifactKey: Guid(52ab4a714556d4bbb8e5406408a229dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/track_01.FBX using Guid(52ab4a714556d4bbb8e5406408a229dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee66a7481bfc1c3654f9fa0decd568e') in 0.179269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Golf Pack/Mesh/trackEnd_01.FBX
-  artifactKey: Guid(859f6f2fb68104f08a68a25b6dafe5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackEnd_01.FBX using Guid(859f6f2fb68104f08a68a25b6dafe5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f721c25a28c9d5b78e388e2169da4385') in 0.012695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillCrossing_02.FBX
-  artifactKey: Guid(a3e8b874a686f4531816454df78aa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillCrossing_02.FBX using Guid(a3e8b874a686f4531816454df78aa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dc1582b6aa0305f9f9c2eff18ba51c') in 0.020733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillRound_03.FBX
-  artifactKey: Guid(73d6d52feed834a9f91846bf60488df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillRound_03.FBX using Guid(73d6d52feed834a9f91846bf60488df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77744479138ffc0dfef745b14586dc1') in 0.009722 seconds 
+  Time since last request: 447770.864544 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly
+  artifactKey: Guid(fddf9a28e70fe73469d81e2db2456b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly using Guid(fddf9a28e70fe73469d81e2db2456b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2702ed983448f12a9a47f67f33df4596') in 0.007171 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000057 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillHole_02.FBX
-  artifactKey: Guid(63d685b8de7714e25b645cca9042b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillHole_02.FBX using Guid(63d685b8de7714e25b645cca9042b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e2e0483844e8dd06b57602c40cab0') in 0.007582 seconds 
+  path: Assets/Blink/Art/Characters
+  artifactKey: Guid(69d2c17204004d246be067e9b9b7c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters using Guid(69d2c17204004d246be067e9b9b7c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5a0335108197b0964db11a82a7e8a') in 0.001251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillRound_02.FBX
-  artifactKey: Guid(77eda57f6cb864d6a957ff1e417e8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillRound_02.FBX using Guid(77eda57f6cb864d6a957ff1e417e8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfd37f3d75a01076d8589518c47e05e') in 0.008992 seconds 
+  Time since last request: 1.456820 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly
+  artifactKey: Guid(6ddda3cb637362b4ca4cbc1813528e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly using Guid(6ddda3cb637362b4ca4cbc1813528e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0ae2c7239bb8da9136bae315d5dd18') in 0.001580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Golf Pack/Mesh/trackCrossing_01.FBX
-  artifactKey: Guid(4ddb96ab61761482e8e051c6cf90ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackCrossing_01.FBX using Guid(4ddb96ab61761482e8e051c6cf90ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8fa77c8fec40b2170015e9f2ecb147') in 0.007356 seconds 
+  Time since last request: 1.960369 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans
+  artifactKey: Guid(13aec0c2edfc5ab45b6e2a4402590e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans using Guid(13aec0c2edfc5ab45b6e2a4402590e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cd274f7a610d1554df0fcb953a9e46') in 0.002388 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Golf Pack/Mesh/trackToHill_02.FBX
-  artifactKey: Guid(5856aec9686b64b25b7bddf9124a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackToHill_02.FBX using Guid(5856aec9686b64b25b7bddf9124a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a2a69c09fc8035ee1346db17a4967a') in 0.007454 seconds 
+  Time since last request: 0.010703 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab
+  artifactKey: Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab using Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463b2f3acdf9050121ee52160634706e') in 0.824988 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Golf Pack/Mesh/trackHill_05.FBX
-  artifactKey: Guid(dd10e1564844a48f0a48bb7a4661d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHill_05.FBX using Guid(dd10e1564844a48f0a48bb7a4661d194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f980d82dc0fb1a3fd27587a601327657') in 0.019405 seconds 
+  Time since last request: 68.410400 seconds.
+  path: Assets/Used Golf Club/Prefabs
+  artifactKey: Guid(87f30d9322f73ca42ac4910fbfdc11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Golf Club/Prefabs using Guid(87f30d9322f73ca42ac4910fbfdc11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a041e532613df9f7dd4989acefc1e8a3') in 0.002570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Golf Pack/Materials/Green Golf Pack.mat
-  artifactKey: Guid(b05271f34d87b48cbab90a6f4ef46917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Materials/Green Golf Pack.mat using Guid(b05271f34d87b48cbab90a6f4ef46917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53908dab4ef9c7b65e0dba348c0554be') in 0.078326 seconds 
+  Time since last request: 0.037646 seconds.
+  path: Assets/Used Golf Club/Prefabs/Golf Club Prefab.prefab
+  artifactKey: Guid(1cacd37db68b03b4db52e458d462de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Used Golf Club/Prefabs/Golf Club Prefab.prefab using Guid(1cacd37db68b03b4db52e458d462de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f18b358630d7d86abda493ba6b63245') in 0.310367 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002656 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x296a87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (60.8 KB). Loaded Objects now: 3531.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 2.995458 ms (FindLiveObjects: 0.133709 ms CreateObjectMapping: 0.070250 ms MarkObjects: 2.698041 ms  DeleteObjects: 0.092834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Golf Pack/Mesh/trackHill_07.FBX
-  artifactKey: Guid(f085042601d044e959e057358d2c9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHill_07.FBX using Guid(f085042601d044e959e057358d2c9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f1ad1730abbeae8ec31dd5a117075b') in 0.008441 seconds 
+  Time since last request: 167.734169 seconds.
+  path: Assets/golfswing.cs
+  artifactKey: Guid(7859ebdf1d5ab42f7a3b775129b6791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/golfswing.cs using Guid(7859ebdf1d5ab42f7a3b775129b6791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736f2baeadb968a8b76a6fd48145673d') in 1.002205 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Golf Pack/Mesh/trackHole_03.FBX
-  artifactKey: Guid(8fd2e4ee64b05436daee5f03dc0da081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHole_03.FBX using Guid(8fd2e4ee64b05436daee5f03dc0da081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f28733b61afe3645aac5f4de8ff9a') in 0.009047 seconds 
+  Time since last request: 29.025446 seconds.
+  path: Assets/golfswing.cs
+  artifactKey: Guid(7859ebdf1d5ab42f7a3b775129b6791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/golfswing.cs using Guid(7859ebdf1d5ab42f7a3b775129b6791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75a6eb0088993c1033226456c620ca8') in 0.011284 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillCrossing_01.FBX
-  artifactKey: Guid(0673e9548be8f46fcbc9c85cf7dca6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillCrossing_01.FBX using Guid(0673e9548be8f46fcbc9c85cf7dca6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb91a50e317b12c4425d17391faca33f') in 0.007521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Golf Pack/Mesh/trackHillCrosing_01.FBX
-  artifactKey: Guid(979054ff4902c4fd392d53b70f6d8a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackHillCrosing_01.FBX using Guid(979054ff4902c4fd392d53b70f6d8a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623a87186013cf2953526c8d9d4fce84') in 0.007935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Golf Pack/Mesh/trackRound_02.FBX
-  artifactKey: Guid(7193e444dbac045b8846c8957aaa68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackRound_02.FBX using Guid(7193e444dbac045b8846c8957aaa68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09487394aa0f7c04acdd5a233e62abbc') in 0.008944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Golf Pack/Mesh/trackCrossing_02.FBX
-  artifactKey: Guid(355b7363adaee4ee49e21aafcc6736c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/trackCrossing_02.FBX using Guid(355b7363adaee4ee49e21aafcc6736c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3a485b701260bf8adb375da935d69c') in 0.008341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.165308 seconds.
-  path: Assets/Golf Pack/Mesh/Materials
-  artifactKey: Guid(dc8ddd7d5f73b48a08166c502e5f2e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/Materials using Guid(dc8ddd7d5f73b48a08166c502e5f2e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4232f3fa65816563d3e43c6ebca58004') in 0.005734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037941 seconds.
-  path: Assets/Golf Pack/Mesh/Materials/Box1 - Diffuse.mat
-  artifactKey: Guid(d039cf504f4e440a4bc7d8dd7fa0a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf Pack/Mesh/Materials/Box1 - Diffuse.mat using Guid(d039cf504f4e440a4bc7d8dd7fa0a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab38072f4502cd6eb464fb91daf3d88') in 0.009997 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001632 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28ce97000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/christianpedersen/Game Engine Projects/Putt Around the World/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (61.1 KB). Loaded Objects now: 3534.
+Memory consumption went from 127.1 MB to 127.0 MB.
+Total: 2.677166 ms (FindLiveObjects: 0.129417 ms CreateObjectMapping: 0.083708 ms MarkObjects: 2.376000 ms  DeleteObjects: 0.086833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
