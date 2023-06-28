@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs" />
+    <Compile Include="Assets/Humanoid Demo/Readme/Scripts/Editor/ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

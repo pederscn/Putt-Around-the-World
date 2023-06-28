@@ -56,7 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Humanoid Demo/Readme/Scripts/Readme.cs" />
     <Compile Include="Assets/golfswing.cs" />
+    <Compile Include="Assets/AnimController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Cartoon City Pack/ReadMe.txt" />
